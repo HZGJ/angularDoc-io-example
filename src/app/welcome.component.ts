@@ -7,7 +7,6 @@ import { UserService }       from './model/user.service';
   template: '<h3 class="welcome" ><i>{{welcome}}</i></h3>'
 })
 
-
 export class WelcomeComponent  implements OnInit {
   welcome = '-- not initialized yet --';
   constructor(private userService: UserService) { }
